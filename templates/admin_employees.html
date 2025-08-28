@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Employee Management</title></head>
+<body>
+<h2>Employee Management</h2>
+<p>Welcome, {{ user_name }} | <a href="{{ url_for('logout') }}">Logout</a></p>
+<p><a href="{{ url_for('admin_dashboard') }}">Back to Dashboard</a></p>
+
+<table border="1">
+    <thead><tr><th>ID</th><th>Username</th><th>User Type</th></tr></thead>
+    <tbody>
+        {% for emp in employees %}
+        <tr>
+            <td>{{ emp['id'] }}</td>
+            <td>{{ emp['username'] }}</td>
+            <td>{{ emp['user_type'] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

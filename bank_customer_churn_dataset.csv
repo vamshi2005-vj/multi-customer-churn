@@ -1,0 +1,501 @@
+CustomerID,Name,CreditScore,Geography,Gender,Age,Tenure,Balance,NumOfProducts,IsActiveMember
+1,Ramesh,729,Karnataka,Male,35,3,55802.68,1,0
+2,Meena,365,Karnataka,Female,23,3,58165.22,1,0
+3,Radha,579,Karnataka,Female,55,4,202357.61,1,0
+4,Sneha,492,Karnataka,Female,27,3,239303.27,3,0
+5,Sreeja,533,Telangana,Female,40,9,66130.22,1,1
+6,Deepak,390,Karnataka,Male,53,4,207351.17,3,0
+7,Ramesh,688,Karnataka,Male,32,4,246305.38,2,0
+8,Kavitha,675,Andhra Pradesh,Female,41,2,92545.24,2,1
+9,Karthik,675,Karnataka,Male,28,8,182281.7,2,1
+10,Rajitha,462,Andhra Pradesh,Female,61,5,210712.98,1,0
+11,Divya,487,Telangana,Female,22,3,228284.03,3,0
+12,Asha,802,Karnataka,Female,59,7,35717.9,2,0
+13,Latha,569,Karnataka,Female,55,6,90499.11,2,1
+14,Ravi,428,Telangana,Male,58,2,198019.84,4,0
+15,Rajitha,589,Andhra Pradesh,Female,51,4,242769.59,1,0
+16,Sneha,407,Karnataka,Female,36,6,39539.44,1,1
+17,Karthik,817,Karnataka,Male,24,10,74611.2,2,0
+18,Naresh,838,Andhra Pradesh,Male,67,8,229623.37,3,1
+19,Anil,799,Telangana,Male,69,4,59863.08,2,0
+20,Sreeja,850,Telangana,Female,66,8,191458.61,2,1
+21,Manoj,620,Karnataka,Male,56,6,241090.73,2,1
+22,Kavitha,810,Andhra Pradesh,Female,51,7,30251.05,2,0
+23,Naresh,633,Andhra Pradesh,Male,32,9,55054.35,1,0
+24,Ravi,790,Telangana,Male,39,1,128539.03,3,1
+25,Srinivas,645,Telangana,Male,48,3,196154.86,4,0
+26,Rajesh,531,Telangana,Male,45,6,116756.17,1,0
+27,Anitha,759,Telangana,Female,24,3,47897.52,4,0
+28,Prasad,586,Andhra Pradesh,Male,33,1,110782.69,1,0
+29,Ramesh,824,Karnataka,Male,66,3,41577.78,4,1
+30,Sreeja,434,Telangana,Female,42,0,246327.21,3,1
+31,Rajitha,688,Andhra Pradesh,Female,63,7,38699.21,3,0
+32,Anil,379,Telangana,Male,21,9,119197.13,2,0
+33,Suresh,385,Karnataka,Male,56,1,168803.14,2,1
+34,Srinivas,654,Telangana,Male,20,9,20495.85,3,1
+35,Lakshmi,485,Telangana,Female,43,2,167922.56,3,1
+36,Kiran,584,Andhra Pradesh,Male,57,9,249024.11,1,0
+37,Radha,827,Karnataka,Female,40,1,219817.56,3,1
+38,Swapna,710,Telangana,Female,37,9,245963.33,1,1
+39,Suresh,485,Karnataka,Male,25,1,185604.17,2,1
+40,Prasad,454,Andhra Pradesh,Male,61,10,213228.2,4,1
+41,Rajesh,774,Telangana,Male,35,0,886.42,2,1
+42,Swapna,711,Telangana,Female,45,8,2417.42,1,0
+43,Manoj,648,Karnataka,Male,53,2,107446.68,1,1
+44,Prasad,457,Andhra Pradesh,Male,61,3,166733.35,3,1
+45,Suresh,792,Karnataka,Male,28,2,220354.05,1,0
+46,Asha,760,Karnataka,Female,60,3,66701.43,1,1
+47,Lakshmi,452,Telangana,Female,70,7,87414.61,2,0
+48,Rajesh,518,Telangana,Male,35,1,241722.28,3,1
+49,Latha,519,Karnataka,Female,19,1,219259.6,3,0
+50,Meena,405,Karnataka,Female,56,6,86421.78,3,1
+51,Deepak,810,Karnataka,Male,54,3,63680.63,4,0
+52,Manoj,570,Karnataka,Male,22,10,230192.71,3,0
+53,Latha,508,Karnataka,Female,60,6,81545.73,3,0
+54,Divya,696,Telangana,Female,65,2,153878.73,3,1
+55,Manoj,496,Karnataka,Male,31,6,196439.71,3,1
+56,Anjali,611,Andhra Pradesh,Female,48,2,164712.69,3,1
+57,Anil,465,Telangana,Male,69,3,36838.49,1,0
+58,Mohan,562,Andhra Pradesh,Male,58,9,48608.81,4,1
+59,Venkatesh,685,Andhra Pradesh,Male,62,0,223164.96,1,1
+60,Srinivas,587,Telangana,Male,21,8,62299.57,1,1
+61,Swapna,636,Telangana,Female,56,5,237509.9,4,1
+62,Radha,730,Karnataka,Female,48,7,64797.89,2,1
+63,Radha,490,Karnataka,Female,46,1,178386.22,2,1
+64,Rajitha,391,Andhra Pradesh,Female,26,2,57815.37,2,0
+65,Divya,519,Telangana,Female,52,7,103943.56,2,1
+66,Naresh,544,Andhra Pradesh,Male,48,0,235685.41,3,1
+67,Mohan,462,Andhra Pradesh,Male,35,6,121410.5,4,1
+68,Radha,780,Karnataka,Female,47,2,245180.49,1,1
+69,Ramesh,679,Karnataka,Male,45,2,216712.84,2,0
+70,Padma,458,Andhra Pradesh,Female,47,5,84375.14,4,1
+71,Sandhya,590,Andhra Pradesh,Female,19,8,13021.4,3,0
+72,Ramesh,736,Karnataka,Male,19,3,49840.17,1,0
+73,Rajesh,692,Telangana,Male,25,9,236939.26,4,1
+74,Naresh,660,Andhra Pradesh,Male,65,1,194447.97,2,1
+75,Anil,644,Telangana,Male,61,6,99163.61,2,0
+76,Ramesh,706,Karnataka,Male,67,4,212573.31,1,0
+77,Padma,385,Andhra Pradesh,Female,50,10,85307.79,4,1
+78,Anitha,675,Telangana,Female,47,2,108871.79,3,1
+79,Rajitha,487,Andhra Pradesh,Female,38,3,207682.75,1,1
+80,Mohan,641,Andhra Pradesh,Male,57,10,94747.33,1,1
+81,Mohan,458,Andhra Pradesh,Male,40,4,85084.71,3,0
+82,Ramesh,473,Karnataka,Male,64,6,122144.46,2,1
+83,Asha,755,Karnataka,Female,19,1,73558.9,4,0
+84,Kavitha,633,Andhra Pradesh,Female,51,5,106375.95,3,1
+85,Sneha,506,Karnataka,Female,34,3,30163.97,2,1
+86,Mahesh,460,Telangana,Male,65,7,69124.91,3,0
+87,Lakshmi,534,Telangana,Female,29,4,3537.09,2,1
+88,Srinivas,499,Telangana,Male,62,2,159467.41,4,0
+89,Divya,595,Telangana,Female,46,5,46090.92,1,1
+90,Kiran,555,Andhra Pradesh,Male,49,1,144255.29,1,0
+91,Sreeja,477,Telangana,Female,25,8,191110.86,2,1
+92,Padma,790,Andhra Pradesh,Female,55,6,76345.06,1,0
+93,Anil,688,Telangana,Male,23,2,59966.29,1,0
+94,Divya,702,Telangana,Female,56,7,72814.82,2,1
+95,Asha,386,Karnataka,Female,61,3,230977.76,2,1
+96,Mahesh,815,Telangana,Male,35,2,17852.46,2,1
+97,Asha,413,Karnataka,Female,47,4,174933.42,3,1
+98,Naresh,370,Andhra Pradesh,Male,45,5,150928.41,1,0
+99,Anil,645,Telangana,Male,20,2,117625.21,4,1
+100,Divya,846,Telangana,Female,23,7,86990.26,3,1
+101,Suresh,518,Karnataka,Male,44,7,72054.45,4,0
+102,Prasad,479,Andhra Pradesh,Male,38,1,242546.18,4,0
+103,Asha,377,Karnataka,Female,30,8,90444.84,4,1
+104,Anil,631,Telangana,Male,26,4,109529.02,4,0
+105,Mahesh,509,Telangana,Male,53,0,138062.85,1,0
+106,Sreeja,681,Telangana,Female,27,7,233163.26,3,1
+107,Kavitha,474,Andhra Pradesh,Female,47,8,36160.49,2,0
+108,Divya,524,Telangana,Female,68,8,66793.17,1,1
+109,Latha,646,Karnataka,Female,60,7,216315.15,4,1
+110,Rajitha,740,Andhra Pradesh,Female,52,6,113836.15,3,0
+111,Karthik,546,Karnataka,Male,32,6,10911.82,4,1
+112,Mohan,843,Andhra Pradesh,Male,20,2,125572.79,3,0
+113,Naresh,816,Andhra Pradesh,Male,47,0,180610.96,4,0
+114,Anitha,523,Telangana,Female,57,6,162459.16,3,1
+115,Rajitha,368,Andhra Pradesh,Female,57,1,58692.56,3,0
+116,Deepak,850,Karnataka,Male,24,10,175972.71,1,1
+117,Sreeja,373,Telangana,Female,38,0,73341.94,3,1
+118,Srinivas,560,Telangana,Male,54,10,198129.87,2,0
+119,Swapna,699,Telangana,Female,33,7,228207.25,2,0
+120,Kavitha,480,Andhra Pradesh,Female,60,0,224727.13,4,1
+121,Ramesh,576,Karnataka,Male,40,9,74788.56,4,1
+122,Anjali,546,Andhra Pradesh,Female,48,1,59301.43,3,1
+123,Meena,850,Karnataka,Female,60,6,68620.1,1,1
+124,Naresh,760,Andhra Pradesh,Male,40,3,159154.47,3,0
+125,Ramesh,508,Karnataka,Male,68,7,8341.13,3,0
+126,Anitha,732,Telangana,Female,44,2,50198.7,3,1
+127,Divya,845,Telangana,Female,69,4,186639.84,3,0
+128,Venkatesh,736,Andhra Pradesh,Male,32,10,181054.18,4,1
+129,Sreeja,485,Telangana,Female,52,1,113696.51,3,1
+130,Meena,695,Karnataka,Female,32,7,6256.16,3,0
+131,Deepak,815,Karnataka,Male,62,4,162309.86,1,0
+132,Anil,602,Telangana,Male,25,1,58700.01,2,1
+133,Rajitha,564,Andhra Pradesh,Female,55,2,221353.45,1,1
+134,Sneha,366,Karnataka,Female,62,5,54317.42,4,0
+135,Prasad,628,Andhra Pradesh,Male,59,5,15137.52,3,0
+136,Sreeja,689,Telangana,Female,31,10,159873.23,1,0
+137,Venkatesh,752,Andhra Pradesh,Male,54,3,17152.54,2,0
+138,Lakshmi,753,Telangana,Female,56,0,69318.71,2,0
+139,Radha,406,Karnataka,Female,60,0,32950.81,3,0
+140,Meena,439,Karnataka,Female,34,0,31689.64,4,0
+141,Deepak,579,Karnataka,Male,67,5,128309.49,1,1
+142,Karthik,372,Karnataka,Male,64,10,130362.8,4,0
+143,Divya,568,Telangana,Female,61,1,122567.21,4,0
+144,Swapna,425,Telangana,Female,22,2,68754.0,3,1
+145,Asha,608,Karnataka,Female,56,6,24794.62,1,0
+146,Anjali,561,Andhra Pradesh,Female,39,7,99682.55,1,1
+147,Padma,541,Andhra Pradesh,Female,27,10,230746.26,1,0
+148,Rajesh,399,Telangana,Male,65,5,202942.32,1,1
+149,Deepak,531,Karnataka,Male,60,6,217023.04,1,1
+150,Sneha,403,Karnataka,Female,54,8,53184.7,4,0
+151,Swapna,538,Telangana,Female,25,4,143525.0,4,0
+152,Meena,442,Karnataka,Female,35,4,230384.38,3,0
+153,Srinivas,686,Telangana,Male,43,1,35468.66,1,0
+154,Deepak,564,Karnataka,Male,47,5,39352.32,3,1
+155,Ramesh,429,Karnataka,Male,28,9,12440.62,1,1
+156,Kavitha,660,Andhra Pradesh,Female,46,6,68291.71,1,1
+157,Prasad,697,Andhra Pradesh,Male,61,9,121658.19,3,0
+158,Swapna,378,Telangana,Female,18,3,75354.84,2,0
+159,Padma,411,Andhra Pradesh,Female,18,7,186753.53,2,0
+160,Naresh,636,Andhra Pradesh,Male,60,5,18018.87,1,1
+161,Sreeja,791,Telangana,Female,38,9,107321.07,4,1
+162,Mohan,360,Andhra Pradesh,Male,38,2,200330.54,4,1
+163,Sreeja,474,Telangana,Female,45,9,100112.45,1,1
+164,Anjali,520,Andhra Pradesh,Female,67,2,19094.84,1,0
+165,Anjali,470,Andhra Pradesh,Female,24,2,63992.06,2,0
+166,Suresh,837,Karnataka,Male,67,10,123529.26,4,1
+167,Radha,575,Karnataka,Female,22,7,110552.02,3,1
+168,Manoj,609,Karnataka,Male,22,4,115435.62,1,0
+169,Sandhya,680,Andhra Pradesh,Female,23,9,148519.95,4,1
+170,Deepak,815,Karnataka,Male,69,9,162959.36,3,1
+171,Ramesh,580,Karnataka,Male,24,5,245596.4,1,0
+172,Rajesh,574,Telangana,Male,51,8,152451.35,3,1
+173,Kavitha,746,Andhra Pradesh,Female,39,10,149471.47,3,0
+174,Naresh,697,Andhra Pradesh,Male,42,4,62998.95,2,1
+175,Anil,508,Telangana,Male,59,10,97989.5,1,1
+176,Sneha,766,Karnataka,Female,26,10,175707.72,1,1
+177,Meena,535,Karnataka,Female,37,2,237792.33,3,1
+178,Mahesh,429,Telangana,Male,22,4,211107.1,1,0
+179,Latha,417,Karnataka,Female,56,6,38563.19,2,0
+180,Meena,560,Karnataka,Female,41,10,179896.42,4,1
+181,Radha,623,Karnataka,Female,33,4,241399.16,4,0
+182,Kavitha,743,Andhra Pradesh,Female,36,6,125726.67,4,0
+183,Anil,376,Telangana,Male,59,7,218529.24,1,0
+184,Venkatesh,489,Andhra Pradesh,Male,46,8,36837.16,4,0
+185,Anitha,826,Telangana,Female,19,6,13314.22,3,0
+186,Prasad,464,Andhra Pradesh,Male,19,5,232706.48,3,0
+187,Anil,819,Telangana,Male,48,2,189710.29,4,1
+188,Ramesh,359,Karnataka,Male,34,3,208740.77,4,0
+189,Prasad,412,Andhra Pradesh,Male,21,3,104956.39,4,0
+190,Swapna,624,Telangana,Female,19,10,128843.93,2,0
+191,Sandhya,664,Andhra Pradesh,Female,40,3,142665.93,2,0
+192,Meena,838,Karnataka,Female,51,8,126831.92,1,1
+193,Mohan,541,Andhra Pradesh,Male,34,0,89273.47,1,1
+194,Srinivas,726,Telangana,Male,66,5,33352.4,3,1
+195,Deepak,706,Karnataka,Male,48,10,45569.5,2,0
+196,Meena,500,Karnataka,Female,30,0,197777.3,1,1
+197,Rajitha,592,Andhra Pradesh,Female,34,0,188322.73,2,1
+198,Prasad,489,Andhra Pradesh,Male,25,5,109237.85,4,1
+199,Anjali,604,Andhra Pradesh,Female,62,7,91836.73,3,0
+200,Meena,570,Karnataka,Female,56,2,136368.6,3,0
+201,Anitha,506,Telangana,Female,46,9,179415.73,2,1
+202,Sandhya,722,Andhra Pradesh,Female,40,9,249537.65,3,0
+203,Anitha,612,Telangana,Female,69,10,39996.68,1,0
+204,Meena,414,Karnataka,Female,22,3,194628.84,3,1
+205,Naresh,428,Andhra Pradesh,Male,61,7,237205.88,3,1
+206,Srinivas,537,Telangana,Male,43,5,162390.18,2,0
+207,Rajesh,615,Telangana,Male,42,8,29440.25,3,1
+208,Divya,452,Telangana,Female,25,2,213206.57,4,0
+209,Meena,764,Karnataka,Female,61,5,166959.95,1,1
+210,Venkatesh,756,Andhra Pradesh,Male,41,8,56060.4,2,0
+211,Sreeja,534,Telangana,Female,53,9,92227.79,2,0
+212,Divya,717,Telangana,Female,64,7,131423.91,4,0
+213,Sreeja,580,Telangana,Female,47,10,129340.0,2,0
+214,Swapna,816,Telangana,Female,21,1,129525.53,3,0
+215,Lakshmi,527,Telangana,Female,51,4,211483.43,3,0
+216,Radha,670,Karnataka,Female,37,9,133369.51,2,0
+217,Swapna,371,Telangana,Female,70,0,20305.71,3,0
+218,Latha,677,Karnataka,Female,19,7,222249.22,3,1
+219,Mohan,502,Andhra Pradesh,Male,47,1,172153.39,2,1
+220,Kavitha,454,Andhra Pradesh,Female,39,9,35917.17,3,1
+221,Prasad,613,Andhra Pradesh,Male,53,1,79778.97,4,0
+222,Anjali,422,Andhra Pradesh,Female,24,0,72553.0,4,1
+223,Anil,828,Telangana,Male,54,5,47458.53,2,1
+224,Asha,800,Karnataka,Female,37,7,5794.07,4,1
+225,Srinivas,530,Telangana,Male,21,0,70339.08,4,1
+226,Ramesh,570,Karnataka,Male,26,4,181877.02,4,1
+227,Sreeja,641,Telangana,Female,53,3,90630.94,3,0
+228,Rajitha,493,Andhra Pradesh,Female,70,9,170099.66,1,0
+229,Anitha,756,Telangana,Female,39,8,234737.14,2,0
+230,Latha,370,Karnataka,Female,20,0,34259.09,3,1
+231,Radha,660,Karnataka,Female,50,2,81991.46,3,0
+232,Rajitha,522,Andhra Pradesh,Female,50,8,133084.96,3,1
+233,Anitha,694,Telangana,Female,25,6,145925.54,1,1
+234,Kiran,648,Andhra Pradesh,Male,48,2,131058.08,4,0
+235,Ramesh,643,Karnataka,Male,62,1,47696.08,4,1
+236,Mohan,703,Andhra Pradesh,Male,31,6,125454.88,4,0
+237,Karthik,456,Karnataka,Male,53,5,249530.72,4,1
+238,Mohan,817,Andhra Pradesh,Male,52,5,136568.3,3,1
+239,Anil,635,Telangana,Male,37,3,235371.39,3,1
+240,Deepak,512,Karnataka,Male,48,5,140121.9,3,1
+241,Divya,769,Telangana,Female,40,2,72613.16,3,0
+242,Padma,732,Andhra Pradesh,Female,48,3,50517.0,3,1
+243,Srinivas,729,Telangana,Male,55,3,60614.51,2,0
+244,Rajesh,519,Telangana,Male,63,7,25136.23,2,0
+245,Deepak,684,Karnataka,Male,48,7,162634.67,3,1
+246,Kiran,683,Andhra Pradesh,Male,54,3,133788.07,1,0
+247,Kiran,778,Andhra Pradesh,Male,43,7,46577.91,3,0
+248,Swapna,658,Telangana,Female,24,5,71140.41,4,0
+249,Sneha,448,Karnataka,Female,69,1,82671.02,4,1
+250,Ramesh,727,Karnataka,Male,39,4,141945.31,2,0
+251,Asha,613,Karnataka,Female,38,1,100208.31,1,0
+252,Anitha,829,Telangana,Female,33,0,65196.32,2,1
+253,Padma,648,Andhra Pradesh,Female,64,9,2858.93,3,0
+254,Rajesh,507,Telangana,Male,28,6,171518.4,3,0
+255,Sneha,664,Karnataka,Female,32,3,239340.13,4,0
+256,Kavitha,709,Andhra Pradesh,Female,53,7,189337.63,2,0
+257,Karthik,578,Karnataka,Male,51,5,19525.68,1,0
+258,Karthik,624,Karnataka,Male,27,2,82029.41,4,0
+259,Karthik,600,Karnataka,Male,23,8,111370.67,1,1
+260,Divya,638,Telangana,Female,21,8,115594.58,3,0
+261,Sandhya,731,Andhra Pradesh,Female,31,9,18257.38,4,1
+262,Karthik,380,Karnataka,Male,22,7,7933.72,4,0
+263,Anitha,806,Telangana,Female,42,7,217405.07,4,1
+264,Anil,410,Telangana,Male,29,8,98264.66,2,0
+265,Anil,587,Telangana,Male,61,8,106032.01,4,0
+266,Anitha,429,Telangana,Female,35,3,234352.59,1,0
+267,Latha,742,Karnataka,Female,19,3,51520.41,1,0
+268,Venkatesh,729,Andhra Pradesh,Male,20,6,109740.7,2,0
+269,Lakshmi,767,Telangana,Female,64,9,79725.92,3,0
+270,Naresh,463,Andhra Pradesh,Male,44,4,68788.48,2,1
+271,Meena,847,Karnataka,Female,40,10,167835.63,3,1
+272,Prasad,542,Andhra Pradesh,Male,29,8,118379.71,2,1
+273,Deepak,818,Karnataka,Male,21,8,103169.37,4,0
+274,Prasad,454,Andhra Pradesh,Male,39,10,19767.61,4,1
+275,Ravi,487,Telangana,Male,42,10,151242.36,1,0
+276,Rajesh,456,Telangana,Male,39,4,239254.94,1,0
+277,Rajesh,818,Telangana,Male,33,9,175942.15,4,0
+278,Sneha,544,Karnataka,Female,47,8,162180.33,3,1
+279,Kavitha,400,Andhra Pradesh,Female,69,7,190407.24,3,0
+280,Kavitha,373,Andhra Pradesh,Female,54,3,185313.09,1,1
+281,Sneha,428,Karnataka,Female,30,5,57504.66,2,1
+282,Sneha,740,Karnataka,Female,70,7,241627.07,4,1
+283,Lakshmi,421,Telangana,Female,64,8,122079.08,1,0
+284,Ravi,561,Telangana,Male,26,10,57858.35,2,0
+285,Anitha,380,Telangana,Female,57,10,166688.68,4,1
+286,Srinivas,632,Telangana,Male,44,0,4181.54,3,1
+287,Lakshmi,404,Telangana,Female,24,8,37224.37,2,1
+288,Kavitha,390,Andhra Pradesh,Female,41,6,114749.44,2,0
+289,Kiran,397,Andhra Pradesh,Male,43,6,94292.39,4,0
+290,Suresh,392,Karnataka,Male,49,6,161226.81,3,0
+291,Suresh,458,Karnataka,Male,62,9,118875.07,1,0
+292,Latha,638,Karnataka,Female,60,0,44838.63,3,0
+293,Rajesh,825,Telangana,Male,22,4,40612.56,2,1
+294,Asha,736,Karnataka,Female,65,2,197624.52,1,1
+295,Rajesh,468,Telangana,Male,22,5,151292.19,4,1
+296,Divya,601,Telangana,Female,32,5,138259.43,4,1
+297,Sreeja,745,Telangana,Female,57,4,199513.79,1,0
+298,Mohan,714,Andhra Pradesh,Male,68,10,38569.22,4,1
+299,Kiran,352,Andhra Pradesh,Male,37,7,89979.37,3,0
+300,Mahesh,570,Telangana,Male,46,8,138685.0,4,0
+301,Anil,633,Telangana,Male,23,9,149510.95,3,1
+302,Divya,548,Telangana,Female,67,1,181210.96,2,0
+303,Radha,421,Karnataka,Female,35,4,67101.7,2,0
+304,Anitha,565,Telangana,Female,37,7,195666.66,3,1
+305,Swapna,665,Telangana,Female,30,7,26743.09,3,0
+306,Rajitha,544,Andhra Pradesh,Female,69,5,110055.73,4,0
+307,Rajitha,835,Andhra Pradesh,Female,62,3,119752.44,2,1
+308,Kavitha,845,Andhra Pradesh,Female,54,3,81471.56,3,1
+309,Naresh,452,Andhra Pradesh,Male,55,8,44981.8,1,1
+310,Deepak,758,Karnataka,Male,36,1,204741.39,4,1
+311,Lakshmi,479,Telangana,Female,60,2,178809.1,4,0
+312,Rajitha,555,Andhra Pradesh,Female,52,8,230873.94,4,0
+313,Kiran,743,Andhra Pradesh,Male,33,10,166173.47,2,0
+314,Sneha,844,Karnataka,Female,68,6,26486.14,1,1
+315,Rajesh,541,Telangana,Male,43,7,193085.56,2,1
+316,Sreeja,501,Telangana,Female,44,1,29017.33,2,1
+317,Kavitha,751,Andhra Pradesh,Female,31,8,120731.5,4,0
+318,Padma,384,Andhra Pradesh,Female,37,0,202546.48,1,0
+319,Venkatesh,826,Andhra Pradesh,Male,65,3,128998.48,2,1
+320,Asha,468,Karnataka,Female,69,6,157440.08,2,1
+321,Naresh,802,Andhra Pradesh,Male,30,7,148050.79,4,0
+322,Suresh,492,Karnataka,Male,66,1,144336.98,2,1
+323,Mohan,408,Andhra Pradesh,Male,34,10,215659.14,3,1
+324,Latha,408,Karnataka,Female,40,5,211379.45,2,1
+325,Suresh,510,Karnataka,Male,25,3,76345.0,2,1
+326,Karthik,548,Karnataka,Male,44,9,34466.82,4,1
+327,Swapna,705,Telangana,Female,59,2,138728.14,4,1
+328,Anil,781,Telangana,Male,46,9,13402.82,3,0
+329,Venkatesh,767,Andhra Pradesh,Male,42,8,126359.5,4,1
+330,Asha,713,Karnataka,Female,46,7,41813.37,1,0
+331,Prasad,465,Andhra Pradesh,Male,52,4,42052.24,4,1
+332,Karthik,408,Karnataka,Male,35,8,205820.7,3,0
+333,Latha,461,Karnataka,Female,45,1,183997.17,2,1
+334,Anitha,528,Telangana,Female,70,1,109767.48,1,0
+335,Swapna,673,Telangana,Female,45,2,154037.8,2,0
+336,Swapna,493,Telangana,Female,56,8,42094.34,3,1
+337,Latha,810,Karnataka,Female,61,1,33897.23,4,0
+338,Venkatesh,477,Andhra Pradesh,Male,27,5,207120.45,4,1
+339,Divya,542,Telangana,Female,46,1,158406.94,1,1
+340,Sneha,582,Karnataka,Female,49,5,145488.89,1,1
+341,Meena,757,Karnataka,Female,52,6,54457.48,4,0
+342,Padma,774,Andhra Pradesh,Female,36,5,136827.63,2,1
+343,Kiran,400,Andhra Pradesh,Male,58,7,4070.34,2,1
+344,Mohan,453,Andhra Pradesh,Male,62,2,220536.94,3,0
+345,Prasad,478,Andhra Pradesh,Male,23,5,166127.2,2,0
+346,Anjali,569,Andhra Pradesh,Female,59,1,175924.51,1,0
+347,Venkatesh,653,Andhra Pradesh,Male,32,8,169995.68,1,0
+348,Meena,790,Karnataka,Female,45,2,119425.06,2,1
+349,Ravi,510,Telangana,Male,41,4,34282.32,2,0
+350,Srinivas,682,Telangana,Male,28,7,87796.93,2,0
+351,Anjali,394,Andhra Pradesh,Female,24,2,188111.41,4,1
+352,Anjali,476,Andhra Pradesh,Female,35,10,21062.18,3,0
+353,Radha,615,Karnataka,Female,56,8,47161.63,4,1
+354,Suresh,603,Karnataka,Male,42,1,60270.44,1,0
+355,Anjali,548,Andhra Pradesh,Female,54,6,91353.12,2,1
+356,Srinivas,384,Telangana,Male,18,4,53935.73,1,1
+357,Latha,742,Karnataka,Female,44,6,175452.66,1,0
+358,Prasad,390,Andhra Pradesh,Male,50,3,243578.35,2,1
+359,Prasad,707,Andhra Pradesh,Male,45,3,14476.49,1,1
+360,Swapna,661,Telangana,Female,21,4,166519.89,2,0
+361,Ravi,433,Telangana,Male,49,5,130751.34,3,0
+362,Prasad,725,Andhra Pradesh,Male,25,0,83752.76,4,1
+363,Manoj,714,Karnataka,Male,54,10,19267.51,4,1
+364,Swapna,435,Telangana,Female,41,2,63779.02,1,0
+365,Ravi,789,Telangana,Male,18,3,11495.38,3,1
+366,Ravi,633,Telangana,Male,69,10,104842.33,3,0
+367,Padma,772,Andhra Pradesh,Female,22,9,93202.04,1,0
+368,Rajesh,385,Telangana,Male,47,4,193381.87,3,1
+369,Sreeja,538,Telangana,Female,30,4,140951.69,3,0
+370,Rajitha,847,Andhra Pradesh,Female,49,3,183115.83,2,0
+371,Sreeja,469,Telangana,Female,52,5,158985.46,1,1
+372,Anitha,403,Telangana,Female,31,8,245778.94,4,1
+373,Anil,397,Telangana,Male,20,3,224321.87,4,1
+374,Naresh,398,Andhra Pradesh,Male,50,2,159303.92,4,0
+375,Deepak,689,Karnataka,Male,26,3,72919.01,3,1
+376,Sneha,581,Karnataka,Female,35,3,18671.86,2,0
+377,Suresh,404,Karnataka,Male,28,7,116513.78,4,0
+378,Radha,581,Karnataka,Female,37,7,66251.98,1,0
+379,Swapna,370,Telangana,Female,31,5,37080.95,2,1
+380,Prasad,483,Andhra Pradesh,Male,70,2,7770.52,4,1
+381,Ramesh,586,Karnataka,Male,24,2,30363.31,1,0
+382,Rajesh,540,Telangana,Male,61,10,234393.72,1,1
+383,Ravi,451,Telangana,Male,59,7,202324.67,1,1
+384,Rajesh,375,Telangana,Male,28,9,108289.09,4,1
+385,Divya,438,Telangana,Female,40,3,227076.05,3,1
+386,Kiran,664,Andhra Pradesh,Male,57,9,61446.19,3,1
+387,Sandhya,394,Andhra Pradesh,Female,35,6,34309.0,2,0
+388,Deepak,750,Karnataka,Male,63,5,119921.11,4,1
+389,Asha,488,Karnataka,Female,29,0,79719.39,2,0
+390,Mohan,621,Andhra Pradesh,Male,40,9,249901.44,2,0
+391,Anil,623,Telangana,Male,70,0,191012.43,2,1
+392,Venkatesh,471,Andhra Pradesh,Male,55,5,201552.56,3,0
+393,Latha,638,Karnataka,Female,27,9,237092.13,4,1
+394,Sreeja,396,Telangana,Female,21,3,150415.7,1,1
+395,Swapna,453,Telangana,Female,69,2,85189.76,2,1
+396,Mahesh,650,Telangana,Male,63,2,193591.62,3,0
+397,Rajitha,401,Andhra Pradesh,Female,39,4,80650.8,2,1
+398,Sneha,439,Karnataka,Female,63,8,173390.1,3,0
+399,Deepak,507,Karnataka,Male,64,4,31837.09,1,1
+400,Suresh,658,Karnataka,Male,38,9,55223.81,1,1
+401,Sreeja,471,Telangana,Female,40,5,41971.85,1,1
+402,Prasad,457,Andhra Pradesh,Male,33,1,87620.29,1,0
+403,Divya,725,Telangana,Female,44,2,221138.0,4,1
+404,Sandhya,774,Andhra Pradesh,Female,48,9,162742.39,2,0
+405,Kiran,500,Andhra Pradesh,Male,19,5,65281.93,1,0
+406,Mohan,432,Andhra Pradesh,Male,64,1,136761.56,1,1
+407,Meena,570,Karnataka,Female,59,2,151829.41,4,0
+408,Anil,455,Telangana,Male,30,6,174299.18,3,1
+409,Kiran,375,Andhra Pradesh,Male,43,9,137415.66,4,0
+410,Sreeja,568,Telangana,Female,23,4,205974.33,4,0
+411,Mahesh,437,Telangana,Male,58,4,244264.42,4,0
+412,Kavitha,600,Andhra Pradesh,Female,60,4,22784.22,4,0
+413,Padma,445,Andhra Pradesh,Female,46,0,65823.99,4,1
+414,Swapna,381,Telangana,Female,27,10,24175.66,3,1
+415,Karthik,381,Karnataka,Male,42,8,104658.02,4,0
+416,Sandhya,552,Andhra Pradesh,Female,63,0,125525.37,2,0
+417,Venkatesh,847,Andhra Pradesh,Male,31,3,31546.5,4,0
+418,Radha,771,Karnataka,Female,58,2,208527.03,3,1
+419,Ramesh,548,Karnataka,Male,53,6,138013.55,3,1
+420,Sreeja,562,Telangana,Female,27,2,141648.48,1,0
+421,Manoj,794,Karnataka,Male,52,5,219473.39,3,1
+422,Latha,661,Karnataka,Female,48,0,43049.93,4,0
+423,Meena,552,Karnataka,Female,39,3,12322.74,4,1
+424,Prasad,768,Andhra Pradesh,Male,68,4,77737.32,4,0
+425,Anil,848,Telangana,Male,65,7,193507.73,3,1
+426,Latha,680,Karnataka,Female,23,3,110429.15,4,1
+427,Meena,613,Karnataka,Female,68,2,16404.24,4,0
+428,Suresh,448,Karnataka,Male,30,0,62372.57,4,0
+429,Prasad,538,Andhra Pradesh,Male,70,7,126281.59,1,0
+430,Divya,654,Telangana,Female,46,2,240130.09,4,1
+431,Prasad,733,Andhra Pradesh,Male,62,1,71267.34,4,0
+432,Mahesh,681,Telangana,Male,32,10,51682.75,4,0
+433,Deepak,816,Karnataka,Male,26,10,43300.16,1,0
+434,Padma,566,Andhra Pradesh,Female,42,5,114749.5,2,1
+435,Rajitha,402,Andhra Pradesh,Female,18,8,249857.34,3,1
+436,Mohan,382,Andhra Pradesh,Male,39,4,160148.69,3,1
+437,Radha,426,Karnataka,Female,51,3,224921.76,4,1
+438,Ramesh,685,Karnataka,Male,49,4,64856.57,4,1
+439,Naresh,712,Andhra Pradesh,Male,54,3,85791.76,2,1
+440,Latha,503,Karnataka,Female,28,10,219123.7,2,1
+441,Lakshmi,729,Telangana,Female,34,8,190729.55,2,1
+442,Suresh,531,Karnataka,Male,32,4,105118.14,3,1
+443,Kavitha,785,Andhra Pradesh,Female,25,7,13419.24,1,1
+444,Rajesh,621,Telangana,Male,37,6,13515.49,2,0
+445,Divya,641,Telangana,Female,47,2,79095.86,2,0
+446,Anjali,510,Andhra Pradesh,Female,58,0,1178.38,3,0
+447,Rajesh,752,Telangana,Male,66,1,32351.49,4,1
+448,Kavitha,546,Andhra Pradesh,Female,18,0,133445.65,3,0
+449,Kiran,696,Andhra Pradesh,Male,18,10,183400.81,2,1
+450,Kiran,546,Andhra Pradesh,Male,50,9,76528.77,1,0
+451,Kavitha,722,Andhra Pradesh,Female,51,9,131029.41,4,0
+452,Padma,734,Andhra Pradesh,Female,30,2,237021.09,4,0
+453,Mahesh,458,Telangana,Male,64,0,147423.21,2,0
+454,Mohan,798,Andhra Pradesh,Male,58,4,192812.42,1,0
+455,Ramesh,374,Karnataka,Male,62,1,104193.89,4,0
+456,Asha,709,Karnataka,Female,27,3,173798.01,1,1
+457,Naresh,488,Andhra Pradesh,Male,57,9,175181.59,4,0
+458,Manoj,408,Karnataka,Male,68,1,124434.77,2,1
+459,Manoj,710,Karnataka,Male,44,4,40093.4,4,0
+460,Sneha,470,Karnataka,Female,18,0,167908.28,1,1
+461,Srinivas,388,Telangana,Male,64,1,226194.85,2,1
+462,Kavitha,375,Andhra Pradesh,Female,24,2,218535.11,3,1
+463,Asha,728,Karnataka,Female,25,1,212811.48,1,0
+464,Anil,533,Telangana,Male,46,9,67077.35,1,1
+465,Kiran,555,Andhra Pradesh,Male,43,7,67958.27,4,1
+466,Kiran,417,Andhra Pradesh,Male,62,0,245392.29,2,0
+467,Rajitha,697,Andhra Pradesh,Female,46,2,152830.79,3,0
+468,Deepak,821,Karnataka,Male,49,1,221898.48,4,0
+469,Anitha,356,Telangana,Female,63,10,131204.48,2,1
+470,Deepak,688,Karnataka,Male,64,3,120482.42,4,0
+471,Ramesh,679,Karnataka,Male,28,8,212211.39,4,0
+472,Anitha,473,Telangana,Female,39,4,12587.68,2,1
+473,Kiran,585,Andhra Pradesh,Male,46,9,112024.65,4,1
+474,Mohan,731,Andhra Pradesh,Male,59,0,25660.83,4,0
+475,Ramesh,755,Karnataka,Male,56,9,159384.53,2,1
+476,Sandhya,768,Andhra Pradesh,Female,32,7,82993.16,4,1
+477,Meena,399,Karnataka,Female,66,10,55436.78,3,1
+478,Latha,617,Karnataka,Female,41,1,11444.53,2,1
+479,Sreeja,480,Telangana,Female,57,3,46885.85,4,0
+480,Prasad,405,Andhra Pradesh,Male,66,6,11625.09,1,1
+481,Mohan,352,Andhra Pradesh,Male,51,0,138306.58,4,1
+482,Karthik,438,Karnataka,Male,64,2,25888.49,3,1
+483,Prasad,553,Andhra Pradesh,Male,39,4,113211.43,2,0
+484,Rajitha,790,Andhra Pradesh,Female,38,8,158145.82,2,0
+485,Sneha,821,Karnataka,Female,61,2,245333.87,2,1
+486,Manoj,637,Karnataka,Male,48,9,142659.55,4,1
+487,Naresh,404,Andhra Pradesh,Male,19,6,36331.68,1,0
+488,Prasad,699,Andhra Pradesh,Male,34,2,209845.45,3,0
+489,Manoj,766,Karnataka,Male,46,1,154027.21,2,1
+490,Sreeja,824,Telangana,Female,42,6,104141.56,3,0
+491,Lakshmi,667,Telangana,Female,67,7,207495.87,3,0
+492,Manoj,579,Karnataka,Male,29,10,18617.25,2,0
+493,Mohan,492,Andhra Pradesh,Male,53,4,32516.63,3,0
+494,Anjali,370,Andhra Pradesh,Female,27,5,149220.08,3,1
+495,Meena,751,Karnataka,Female,63,5,131348.77,2,0
+496,Deepak,628,Karnataka,Male,52,6,22986.39,2,0
+497,Sneha,534,Karnataka,Female,36,3,237577.07,4,0
+498,Divya,473,Telangana,Female,59,9,229651.82,2,0
+499,Asha,818,Karnataka,Female,68,1,96468.98,3,0
+500,Latha,761,Karnataka,Female,50,7,121701.18,3,0

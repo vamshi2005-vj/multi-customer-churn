@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Employee</title>
+</head>
+<body>
+    <h1>Edit Employee</h1>
+    <p>Welcome, {{ user_name }} (Admin)</p>
+    <a href="{{ url_for('admin_employees') }}">Back to Employees</a> | 
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <hr>
+    {% if error %}
+        <p style="color:red;">{{ error }}</p>
+    {% endif %}
+    <form method="POST">
+        <label>Name:<br><input type="text" name="name" value="{{ employee['name'] }}" required></label><br><br>
+        <label>Email:<br><input type="email" name="email" value="{{ employee['email'] }}" required></label><br><br>
+        <label>New Password (leave blank to keep current):<br><input type="password" name="password"></label><br><br>
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>

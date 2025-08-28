@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Churn Prediction</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 40px;
+            background-image: url('/static/login_web_back.jpg');
+        }
+        .login-container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+<div class="login-container">
+    <h3 class="text-center mb-4">Login</h3>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, msg in messages %}
+                <div class="alert alert-{{ category }}">{{ msg }}</div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    {% if error %}
+        <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+
+    <form method="POST" action="{{ url_for('login') }}">
+        <div class="form-group">
+            <label>User Type</label>
+            <select class="form-control" name="user_type" required {% if show_otp or show_reset %}disabled{% endif %}>
+                <option value="">Select</option>
+                <option value="admin" {% if user_type == 'admin' %}selected{% endif %}>Admin</option>
+                <option value="employee" {% if user_type == 'employee' %}selected{% endif %}>Employee</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>ID</label>
+            <input type="number" class="form-control" name="user_id" required
+                   value="{{ user_id if user_id is defined else '' }}" {% if show_otp or show_reset %}readonly{% endif %}>
+        </div>
+
+        {% if not show_otp and not show_reset %}
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" name="password" required>
+            </div>
+        {% endif %}
+
+        {% if show_otp %}
+            <div class="form-group">
+                <label>Enter OTP sent to your registered email</label>
+                <input type="text" class="form-control" name="otp" required maxlength="6" pattern="\d{6}">
+            </div>
+        {% endif %}
+
+        {% if show_reset %}
+            <div class="form-group">
+                <label>New Password</label>
+                <input type="password" class="form-control" name="new_password" required minlength="6">
+            </div>
+        {% endif %}
+
+        <button class="btn btn-primary btn-block" type="submit">
+            {% if show_otp %}
+                Verify OTP
+            {% elif show_reset %}
+                Reset Password
+            {% else %}
+                Login
+            {% endif %}
+        </button>
+    </form>
+</div>
+</body>
+</html>

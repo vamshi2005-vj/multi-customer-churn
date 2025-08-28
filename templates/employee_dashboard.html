@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h3 class="mt-5">Employee Dashboard</h3>
+    <form method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Upload CSV for Prediction</label>
+            <input type="file" class="form-control" name="file" accept=".csv" required>
+        </div>
+        <button class="btn btn-primary" type="submit">Predict</button>
+    </form>
+    {% if prediction_result %}
+        <h4 class="mt-4">Prediction Result:</h4>
+        <p>{{ prediction_result }}</p>
+    {% endif %}
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h3 class="mt-5">Admin Dashboard</h3>
+    <ul>
+        <li><a href="{{ url_for('activity_logs') }}">View Activity Logs</a></li>
+        <li><a href="{{ url_for('employee_management') }}">Manage Employees</a></li>
+    </ul>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</div>
+</body>
+</html>
