@@ -27,23 +27,24 @@ A **Flask web application** for predicting customer churn. Supports both **singl
 
 ## Project Structure
 Multi-Churn/
-├── app.py # Main Flask application
-├── churn_predict_model.pkl # Pre-trained churn prediction model
-├── Churn_Modelling.csv # Sample dataset for preprocessing
-├── churn_app.db # SQLite database
-├── requirements.txt # Python dependencies
-├── at_risk_customers.xlsx # Excel file for at-risk customers
-├── uploads/ # Uploaded CSV files (bulk predictions)
-├── templates/ # HTML templates
-│ ├── login.html # Login & OTP template
-│ └── index.html # Prediction form template
-├── static/ # Static files (CSS/JS/images)
-│ ├── css/
-│ ├── js/
-│ └── images/
-├── logs/ # Optional logs folder
-│ └── app.log
-└── README.md # Project documentation
+    app.py                     # Main Flask application
+    churn_predict_model.pkl     # Pre-trained churn prediction model
+    Churn_Modelling.csv         # Sample dataset for preprocessing
+    churn_app.db                # SQLite database
+    requirements.txt            # Python dependencies
+    at_risk_customers.xlsx      # Excel file for at-risk customers
+    uploads/                    # Uploaded CSV files (bulk predictions)
+    templates/                  # HTML templates
+        login.html              # Login & OTP template
+        index.html              # Prediction form template
+    static/                     # Static files (CSS/JS/images)
+        css/
+        js/
+        images/
+    logs/                       # Optional logs folder
+        app.log
+    README.md                   # Project documentation
+
 
 
 ---
