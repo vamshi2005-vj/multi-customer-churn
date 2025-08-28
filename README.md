@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 # Multi-Customer Churn Prediction Web App
 
 A **Flask web application** for predicting customer churn. Supports both **single-customer** and **multi-customer (CSV)** predictions. Includes user authentication, OTP-based password reset via email, and database storage of predictions. At-risk customers can be downloaded as an Excel file.
